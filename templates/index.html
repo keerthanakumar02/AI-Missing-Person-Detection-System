@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Missing Person Detection System</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold fs-3" href="/">
+                🛡 AI Missing Person Detection System
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mt-5">
+
+        <div class="row align-items-center">
+
+            <!-- Left Side -->
+            <div class="col-lg-6 text-center">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+class="img-fluid"
+style="max-width:280px;">
+
+                <h1 class="text-white fw-bold">
+                    Find Missing Persons with AI
+                </h1>
+
+                <p class="text-white fs-5">
+                    Upload missing person information safely and manage records digitally using Artificial Intelligence,
+                    Python, Flask, SQLite and OpenCV.
+                </p>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="col-lg-6">
+
+                <div class="main-card">
+
+                    <h2 class="text-center mb-4">
+                        Dashboard
+                    </h2>
+
+                    <a href="/register"
+                        class="btn btn-primary btn-lg w-100 mb-3">
+
+                        <i class="bi bi-person-plus-fill"></i>
+
+                        Register Missing Person
+
+                    </a>
+
+                    <a href="/search"
+                        class="btn btn-success btn-lg w-100 mb-3">
+
+                        <i class="bi bi-search"></i>
+
+                        Search Missing Persons
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Statistics -->
+        <!-- Statistics -->
+<div class="row mt-5 g-4">
+
+    <div class="col-md-4 mb-3">
+
+        <div class="card shadow text-center p-4">
+
+            <h2>👥</h2>
+
+            <h4>Total Registered</h4>
+
+            <h2>{{ total_persons }}</h2>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <div class="card shadow text-center p-4">
+
+            <h2>📷</h2>
+
+            <h4>Photos Stored</h4>
+
+            <h2>{{ total_persons }}</h2>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <div class="card shadow text-center p-4">
+
+            <h2>🟢</h2>
+
+            <h4>System Status</h4>
+
+            <h3>ACTIVE</h3>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <!-- About -->
+        <div class="main-card mt-5">
+
+            <h2 class="mb-3">
+                <i class="bi bi-shield-check"></i>
+                About the Project
+            </h2>
+
+            <p style="font-size:18px; line-height:30px;">
+
+                AI Missing Person Detection System is a smart web application developed to simplify the process of
+                registering and searching missing persons. The system stores the details securely in a SQLite database
+                and allows users to upload photographs for future identification.
+
+                The project is developed using Python, Flask, SQLite and OpenCV. It provides a user-friendly interface
+                for registration, searching and future webcam-based face recognition.
+
+                This application aims to reduce manual effort and improve the efficiency of missing person management
+                using Artificial Intelligence technologies.
+
+            </p>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-white mt-5 mb-4">
+
+            <hr>
+
+            <h5>Developed By Keerthana</h5>
+
+            <p>
+                Python | Flask | SQLite | OpenCV
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#0F172A,#1E3A8A,#2563EB);
+
+    min-height:100vh;
+
+}
+
+/* Navbar */
+
+.navbar{
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+
+}
+
+.navbar-brand{
+
+    color:white !important;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    color:white !important;
+
+    font-size:18px;
+
+}
+
+/* Card */
+
+.main-card{
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.30);
+
+    padding:40px;
+
+    color:white;
+
+}
+
+/* Form */
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    border:none;
+
+}
+
+.form-control:focus{
+
+    box-shadow:0 0 15px #60A5FA;
+
+}
+
+/* Buttons */
+
+.btn-custom{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-custom:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+/* Image */
+
+.preview{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:20px;
+
+    object-fit:cover;
+
+    border:3px solid white;
+
+}
+
+/* Table */
+
+table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+th{
+
+    background:#2563EB !important;
+
+    color:white;
+
+}
+
+td{
+
+    vertical-align:middle;
+
+}
+
+/* Footer */
+
+.footer{
+
+    color:white;
+
+    text-align:center;
+
+    margin-top:40px;
+
+    font-size:15px;
+
+}
+
+/* Form Styling */
+
+.form-control{
+    border-radius:12px;
+    padding:12px;
+    font-size:18px;
+}
+
+.form-label{
+    font-weight:bold;
+    color:white;
+    margin-bottom:8px;
+}
+
+.main-card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0px 10px 30px rgba(0,0,0,0.25);
+}
+
+
+/* Dashboard Button Hover Effect */
+
+.btn-custom{
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0px 15px 30px rgba(0,0,0,.3);
+}
+
