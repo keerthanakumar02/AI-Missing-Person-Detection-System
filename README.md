@@ -2,6 +2,8 @@
 
 > A web-based application to digitally register, manage, and search missing person records — built with Python, Flask, and SQLite.
 
+![Home Page](Screenshot%202026-06-27%20160049.png)
+
 ---
 
 ## 🌟 Live Demo
@@ -101,16 +103,16 @@ http://127.0.0.1:5000
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-> _(Add screenshot here)_
+![Home Page](Screenshot%202026-06-27%20160049.png)
 
 ### 📝 Register Page
-> _(Add screenshot here)_
-
-### 🔍 Search Page
-> _(Add screenshot here)_
+![Register Page](Screenshot%202026-06-27%20155132.png)
 
 ### 📊 Dashboard
-> _(Add screenshot here)_
+![Dashboard](Screenshot%202026-06-27%20155330.png)
+
+### 🔍 Search Page
+![Search Page](Screenshot%202026-06-27%20155504.png)
 
 ---
 
